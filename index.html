@@ -192,14 +192,14 @@
 				<div class="left-text">
 					All papers accepted at SEA4DQ 2024 will be invited to be revised and extended for consideration in a special issue of the Springer Empirical Software Engineering Journal (EMSE). Please note that the extended papers will be subject to a new review process. The official call for papers for the special issue is available at  <a href="https://emsejournal.github.io/special_issues/2024_SI_SEA4DQ.html" target="_blank">https://emsejournal.github.io/special_issues/2024_SI_SEA4DQ.html</a>.
 				</div>
-				</br></br>
-				<h3>Download CfP</h3>
+				<!-- </br></br> -->
+				<!-- <h3>Download CfP</h3>
 					<a href="./sea4dq_2024_poster.pdf"
 						target="_blank" rel="noopener noreferrer">Download Call for Papers Poster</a>
 				</br></br>
 				<h3>Submission Link</h3>
 				Submissions to SEA4DQ 2024 that meet the above requirements can be made via the submission site at <a href="https://sea4dq24.hotcrp.com" target="_blank">https://sea4dq24.hotcrp.com</a>.
-				</br></br>
+				</br></br> -->
 			</section>
 
 			<!-- Keynote -->
@@ -228,7 +228,21 @@
 							<div class="col-md-12">
 								<h4 class="mid-text">Towards an Interpretable Science of Deep Learning for Software Engineering:</br>A Causal Inference View</h4>
 									<div class="left-text small">
-										Neural Code Models (NCMs) are transitioning from research to commercial tools, making it crucial to understand their capabilities and limitations. Automated metrics often fail to capture their real-world performance. Despite promising results, much is unknown about how these models make decisions or whether practitioners trust their outcomes. In this talk, I will introduce doCode, a framework for interpreting NCM predictions using causal inference for programming language-based explanations. doCode aims to reduce spurious correlations by grounding explanations of model behavior in properties of programming languages. I will present empirical results demonstrating doCode's effectiveness in detecting confoundingbias in NCMs.
+										Neural Code Models (NCMs) are rapidly progressing from research prototypes to commercial developer tools. As such, understanding the capabilities and limitations of such models is becoming critical. However, the abilities of these models are typically measured using automated metrics that often only reveal a portion of their real-world performance. While, in general, the performance of NCMs appears promising, currently much is unknown about how such models arrive at decisions or whether practitioners trust NCMs' outcomes. In this talk, I will introduce doCode, a post hoc interpretability framework specific to NCMs that can explain model predictions. doCode is based upon causal inference to enable programming language-oriented explanations. While the theoretical underpinnings of doCode are extensible to exploring different model properties, we provide a concrete instantiation that aims to mitigate the impact of spurious correlations by grounding explanations of model behavior in properties of programming languages. doCode can generate causal explanations based on Abstract Syntax Tree information and software engineering-based interventions. To demonstrate the practical benefit of doCode, I will present empirical results of using doCode for detecting confounding bias in NCMs.
+									</div>
+									<br />
+									<div class="left-text small">
+										<a data-toggle="collapse" href="#collapseAbstract1" role="button"
+											aria-expanded="false" aria-controls="collapseAbstract1">
+											Show/Hide Bio
+										</a>
+									</div>
+									<div class="collapse" id="collapseAbstract1">
+										<div class="card card-body">
+											<div class="left-text small">
+												Denys Poshyvanyk is a Chancellor Professor and a Graduate Director in the Computer Science Department at William & Mary. He currently serves as a Guest Editor-in-Chief of the AI-SE Continuous Special Section at the ACM Transactions on Software Engineering and Methodology (TOSEM) and a Program Co-Chair for FSE'25. He is a recipient of multiple ACM SIGSOFT Distinguished paper awards, the NSF CAREER award (2013). He is an IEEE Fellow and an ACM distinguished member.
+											</div>
+										</div>
 									</div>
 							</div>
 						</div>
@@ -258,8 +272,21 @@
 							<div class="col-md-12">
 								<h4 class="mid-text">Responsible AI Engineering from A Data Perspective</h4>
 									<div class="left-text small">
-										Rapid advancements in AI, especially with large language models (LLMs), have sparked global interest and concerns about responsible AI and safety. While LLMs are impressive, it is the integrated AI systems that have real-world impact. These systems, particularly autonomous LLM agents and multi-agent interactions, need system-level engineering for responsible AI and safety. Data is crucial in these systems, presenting challenges in collection, use, and generation. In this talk, I will introduce a responsible AI engineering approach to address these challenges, focusing on methods, tools, and platforms to ensure responsible AI and safety,
-particularly in managing data challenges.
+										The rapid advancements in AI, particularly with the emergence of large language models (LLMs) and their diverse applications, have attracted huge global interest and raised significant concerns on responsible AI and AI safety. While LLMs are impressive examples of AI models, it is the compound AI systems, which integrate these models with other key components for functionality and quality/risk control, that are ultimately deployed and have real-world impact. These AI systems, especially autonomous LLM agents and those involving multi-agent interacting, require system-level engineering to ensure responsible AI and AI safety. On the other hand, data is the lifeblood of AI systems, cross-cutting different components in AI systems. There are various challenges associated with the data collected, used, and generated by AI systems, as well as their engineering processes. In this talk, I will introduce a responsible AI engineering approach to address system-level responsible AI challenges. This includes engineering/governance methods, practices, tools, and platforms to ensure responsible AI and AI safety. Specially, I will focus on how the responsible AI engineering approach tackles data challenges within the context of responsible AI.
+									</div>
+									<br />
+									<div class="left-text small">
+										<a data-toggle="collapse" href="#collapseAbstract1" role="button"
+											aria-expanded="false" aria-controls="collapseAbstract1">
+											Show/Hide Bio
+										</a>
+									</div>
+									<div class="collapse" id="collapseAbstract1">
+										<div class="card card-body">
+											<div class="left-text small">
+												Dr. Qinghua Lu is a principal research scientist and leads the Responsible AI science team at CSIRO's Data61. She is the winner of the 2023 APAC Women in AI Trailblazer Award and is part of the OECD.AI’s trustworthy AI metrics project team. She received her PhD from University of New South Wales in 2013. Her current research interests include responsible AI, software engineering for AI, and software architecture. She has published 150+ papers in premier international journals and conferences. Her recent paper titled "Towards a Roadmap on Software Engineering for Responsible AI" received the ACM Distinguished Paper Award. Her new book, “Responsible AI: Best Practices for Creating Trustworthy AI Systems”, was published by Pearson Addison-Wesley in December 2023.
+											</div>
+										</div>
 									</div>
 							</div>
 						</div>
@@ -300,7 +327,8 @@ particularly in managing data challenges.
 						</header>
 						<table class="table table-fixed table-hover table-sm">
 							<thead>
-								<h4>July 15, 2024 - All times are in Porto de Galinhas local time (GMT-3)
+								<h4>July 15, 2024 - All times are in Porto de Galinhas local time (GMT-3). </br>
+									SEA4DQ 2024 will be held in parallel with the <a href="https://conf.researchr.org/home/promise-2024" target="_blank">PROMISE 2024</a> workshop.
 								</h4>
 								</tr>
 								<tr>
